@@ -21,9 +21,9 @@ function findBreakingHeight(numFloors) {
   
   // Helper function to simulate the egg breaking. Still kinda thinking if it should be >= or >
   function breaks(floor) {
-    const breakingFloor = 42
+    const breakingFloor = Math.floor(Math.random() * 100) + 1;
     return floor >= breakingFloor;
   }
   
   console.log(findBreakingHeight(100)); // Example usage with 100 floors
-//   Math.floor(Math.random() * 100) + 1;
+//   
