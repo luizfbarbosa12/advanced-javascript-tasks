@@ -8,7 +8,7 @@
 
 // Once you've looped through all the carrot types, return the maximum value of the bag.
 
-// Test your function with different inputs to make sure it works correctly.
+// Test the function with different inputs to make sure it works correctly.
 
 let carrotTypes = [
   { kg: 5, price: 100 },
